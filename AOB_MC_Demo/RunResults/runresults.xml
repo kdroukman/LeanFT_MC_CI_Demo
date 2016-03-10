@@ -1,0 +1,2043 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2016-03-03 11:15:51.960</RunStartTime>
+        <Timezone>AUS Eastern Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+        <CustomFields name="Mobile Center Server:" value="http://192.168.188.154:8080/"/>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2016-03-03 11:15:51.960</StartTime>
+            <Result>Failed</Result>
+            <Links/>
+            <Duration>39</Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo>Microsoft Windows NT 6.2.9200.0</OSInfo>
+                <HostName>WIN-SH6BKF1BS8O</HostName>
+                <NumberOfCores>1</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>4095</TotalMemory>
+                <Locale>en-US</Locale>
+                <Timezone>AUS Eastern Standard Time</Timezone>
+                <User>droukman</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name>aob.mc.demo</Name>
+                <Description><![CDATA[Version: N/A]]></Description>
+                <StartTime>2016-03-03 11:15:52.111</StartTime>
+                <Result>Failed</Result>
+                <Links/>
+                <Duration>39</Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name>aob.mc.demo.LeanFtTest</Name>
+                    <Description/>
+                    <StartTime>2016-03-03 11:15:52.111</StartTime>
+                    <Result>Failed</Result>
+                    <Links/>
+                    <Duration>39</Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>login</Name>
+                        <Description/>
+                        <StartTime>2016-03-03 11:15:52.517</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration>22</Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>Device.Lock</Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;656e674a&quot;</td></tr></table>]]></Description>
+                            <StartTime>2016-03-03 11:15:52.641</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>0</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path/>
+                                        <Operation/>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;656e674a&quot;</td></tr></table>]]></OperationData>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                        <FlowTreeNodeCaption>Device.&lt;span class='emphasis'&gt;Lock&lt;/span&gt;</FlowTreeNodeCaption>
+                                        <FlowTreeNodeTooltip>Device.Lock</FlowTreeNodeTooltip>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Mobile.Device.Device</Name>
+                            <Description/>
+                            <StartTime>2016-03-03 11:16:03.445</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>4</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Application.Advantage</Name>
+                                <Description/>
+                                <StartTime>2016-03-03 11:16:03.445</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>4</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[Advantage]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Application</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name>Advantage.restart</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-03 11:15:58.417</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>6</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[Device]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Application</Type>
+                                                        <Name><![CDATA[Advantage]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>restart</Operation>
+                                                <OperationData/>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[Name]]></Name>
+                                                        <Value><![CDATA["Advantage"]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[Identifier]]></Name>
+                                                        <Value><![CDATA["com.hpswdemo.advantageinc"]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Application</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <ApplicationModel>
+                                                <LogicalName>AOBAndroidModel</LogicalName>
+                                                <ClassName>aob.mc.demo.AOBAndroidModel</ClassName>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Mobile.Device</Type>
+                                                            <Name><![CDATA[Device]]></Name>
+                                                            <IconKey>Device</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Application</Type>
+                                                            <Name><![CDATA[Advantage]]></Name>
+                                                            <IconKey>Application</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </ApplicationModel>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Mobile.Device.Device</Name>
+                            <Description/>
+                            <StartTime>2016-03-03 11:16:07.309</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>5</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Application.Advantage</Name>
+                                <Description/>
+                                <StartTime>2016-03-03 11:16:07.308</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>5</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[Advantage]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Application</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Mobile.EditField.username</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-03 11:16:07.308</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>5</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[Device]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Application</Type>
+                                                        <Name><![CDATA[Advantage]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.EditField</Type>
+                                                        <Name><![CDATA[username]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>EditField</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>username.setText</Name>
+                                        <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;kate&quot;</td></tr></table>]]></Description>
+                                        <StartTime>2016-03-03 11:16:03.448</StartTime>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Duration>4</Duration>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Mobile.Device</Type>
+                                                            <Name><![CDATA[Device]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Application</Type>
+                                                            <Name><![CDATA[Advantage]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.EditField</Type>
+                                                            <Name><![CDATA[username]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>setText</Operation>
+                                                    <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;kate&quot;</td></tr></table>]]></OperationData>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[ClassName]]></Name>
+                                                            <Value><![CDATA["Input"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[0]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ResourceId]]></Name>
+                                                            <Value><![CDATA["loginUserNameEditText"]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                                                <IconKey>EditField</IconKey>
+                                                <CustomUIElements>
+                                                    <DescriptionLabel>Data</DescriptionLabel>
+                                                </CustomUIElements>
+                                                <ApplicationModel>
+                                                    <LogicalName>AOBAndroidModel</LogicalName>
+                                                    <ClassName>aob.mc.demo.AOBAndroidModel</ClassName>
+                                                    <TestObject>
+                                                        <Path>
+                                                            <Object>
+                                                                <Type>Mobile.Device</Type>
+                                                                <Name><![CDATA[Device]]></Name>
+                                                                <IconKey>Device</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Application</Type>
+                                                                <Name><![CDATA[Advantage]]></Name>
+                                                                <IconKey>Application</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.EditField</Type>
+                                                                <Name><![CDATA[username]]></Name>
+                                                                <IconKey>EditField</IconKey>
+                                                            </Object>
+                                                        </Path>
+                                                    </TestObject>
+                                                </ApplicationModel>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Mobile.Device.Device</Name>
+                            <Description/>
+                            <StartTime>2016-03-03 11:16:11.815</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>3</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Application.Advantage</Name>
+                                <Description/>
+                                <StartTime>2016-03-03 11:16:11.815</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>3</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[Advantage]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Application</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Mobile.EditField.password</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-03 11:16:11.815</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>3</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[Device]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Application</Type>
+                                                        <Name><![CDATA[Advantage]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.EditField</Type>
+                                                        <Name><![CDATA[password]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>EditField</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>password.setSecure</Name>
+                                        <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;56d6a93a1212c387254ac03345d55123582afd144635&quot;</td></tr></table>]]></Description>
+                                        <StartTime>2016-03-03 11:16:07.310</StartTime>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Duration>5</Duration>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Mobile.Device</Type>
+                                                            <Name><![CDATA[Device]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Application</Type>
+                                                            <Name><![CDATA[Advantage]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.EditField</Type>
+                                                            <Name><![CDATA[password]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>setSecure</Operation>
+                                                    <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;56d6a93a1212c387254ac03345d55123582afd144635&quot;</td></tr></table>]]></OperationData>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[ClassName]]></Name>
+                                                            <Value><![CDATA["Input"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[1]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ResourceId]]></Name>
+                                                            <Value><![CDATA["loginPasswordEditText"]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                                                <IconKey>EditField</IconKey>
+                                                <CustomUIElements>
+                                                    <DescriptionLabel>Data</DescriptionLabel>
+                                                </CustomUIElements>
+                                                <ApplicationModel>
+                                                    <LogicalName>AOBAndroidModel</LogicalName>
+                                                    <ClassName>aob.mc.demo.AOBAndroidModel</ClassName>
+                                                    <TestObject>
+                                                        <Path>
+                                                            <Object>
+                                                                <Type>Mobile.Device</Type>
+                                                                <Name><![CDATA[Device]]></Name>
+                                                                <IconKey>Device</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Application</Type>
+                                                                <Name><![CDATA[Advantage]]></Name>
+                                                                <IconKey>Application</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.EditField</Type>
+                                                                <Name><![CDATA[password]]></Name>
+                                                                <IconKey>EditField</IconKey>
+                                                            </Object>
+                                                        </Path>
+                                                    </TestObject>
+                                                </ApplicationModel>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Mobile.Device.Device</Name>
+                            <Description/>
+                            <StartTime>2016-03-03 11:16:14.003</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Application.Advantage</Name>
+                                <Description/>
+                                <StartTime>2016-03-03 11:16:14.003</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>1</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[Advantage]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Application</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Mobile.Button.login</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-03 11:16:14.003</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[Device]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Application</Type>
+                                                        <Name><![CDATA[Advantage]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Button</Type>
+                                                        <Name><![CDATA[login]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Button</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>login.tap</Name>
+                                        <Description/>
+                                        <StartTime>2016-03-03 11:16:11.822</StartTime>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Duration>3</Duration>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Mobile.Device</Type>
+                                                            <Name><![CDATA[Device]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Application</Type>
+                                                            <Name><![CDATA[Advantage]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Button</Type>
+                                                            <Name><![CDATA[login]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>tap</Operation>
+                                                    <OperationData/>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[Text]]></Name>
+                                                            <Value><![CDATA["LOGIN"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ClassName]]></Name>
+                                                            <Value><![CDATA["Button"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[0]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ResourceId]]></Name>
+                                                            <Value><![CDATA["loginButton"]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                                                <IconKey>Button</IconKey>
+                                                <CustomUIElements>
+                                                    <DescriptionLabel>Data</DescriptionLabel>
+                                                </CustomUIElements>
+                                                <ApplicationModel>
+                                                    <LogicalName>AOBAndroidModel</LogicalName>
+                                                    <ClassName>aob.mc.demo.AOBAndroidModel</ClassName>
+                                                    <TestObject>
+                                                        <Path>
+                                                            <Object>
+                                                                <Type>Mobile.Device</Type>
+                                                                <Name><![CDATA[Device]]></Name>
+                                                                <IconKey>Device</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Application</Type>
+                                                                <Name><![CDATA[Advantage]]></Name>
+                                                                <IconKey>Application</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Button</Type>
+                                                                <Name><![CDATA[login]]></Name>
+                                                                <IconKey>Button</IconKey>
+                                                            </Object>
+                                                        </Path>
+                                                    </TestObject>
+                                                </ApplicationModel>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                        </ReportNode>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Device.[Device]</Name>
+                                <Description/>
+                                <StartTime>2016-03-03 11:16:14.127</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>0</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[[Device]]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Device</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name>[Device].unlock</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-03 11:16:14.007</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[[Device]]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>unlock</Operation>
+                                                <OperationData/>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[Name]]></Name>
+                                                        <Value><![CDATA[SM-G900I]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[Manufacturer]]></Name>
+                                                        <Value><![CDATA[samsung]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[Model]]></Name>
+                                                        <Value><![CDATA[SM-G900I]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[OS Version]]></Name>
+                                                        <Value><![CDATA[4.4.2]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[Id]]></Name>
+                                                        <Value><![CDATA[656e674a]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[OS Type]]></Name>
+                                                        <Value><![CDATA[ANDROID]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Device</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Mobile.Device</Type>
+                                                            <Name><![CDATA[[Device]]]></Name>
+                                                            <IconKey>Device</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                </ReportNode>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>transfer</Name>
+                        <Description/>
+                        <StartTime>2016-03-03 11:16:14.130</StartTime>
+                        <Result>Failed</Result>
+                        <Links/>
+                        <Duration>17</Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>Device.Lock</Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;656e674a&quot;</td></tr></table>]]></Description>
+                            <StartTime>2016-03-03 11:16:14.131</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>0</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path/>
+                                        <Operation/>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;656e674a&quot;</td></tr></table>]]></OperationData>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                        <FlowTreeNodeCaption>Device.&lt;span class='emphasis'&gt;Lock&lt;/span&gt;</FlowTreeNodeCaption>
+                                        <FlowTreeNodeTooltip>Device.Lock</FlowTreeNodeTooltip>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Mobile.Device.Device</Name>
+                            <Description/>
+                            <StartTime>2016-03-03 11:16:19.360</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>2</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Application.Advantage</Name>
+                                <Description/>
+                                <StartTime>2016-03-03 11:16:19.359</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>2</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[Advantage]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Application</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Mobile.UiObject.aobMenu</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-03 11:16:19.356</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>2</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[Device]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Application</Type>
+                                                        <Name><![CDATA[Advantage]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.UiObject</Type>
+                                                        <Name><![CDATA[aobMenu]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>UiObject</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>aobMenu.tap</Name>
+                                        <Description/>
+                                        <StartTime>2016-03-03 11:16:16.799</StartTime>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Duration>3</Duration>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Mobile.Device</Type>
+                                                            <Name><![CDATA[Device]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Application</Type>
+                                                            <Name><![CDATA[Advantage]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.UiObject</Type>
+                                                            <Name><![CDATA[aobMenu]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>tap</Operation>
+                                                    <OperationData/>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[ClassName]]></Name>
+                                                            <Value><![CDATA["ImageView"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[12]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ResourceId]]></Name>
+                                                            <Value><![CDATA["up"]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                                                <IconKey>UiObject</IconKey>
+                                                <CustomUIElements>
+                                                    <DescriptionLabel>Data</DescriptionLabel>
+                                                </CustomUIElements>
+                                                <ApplicationModel>
+                                                    <LogicalName>AOBAndroidModel</LogicalName>
+                                                    <ClassName>aob.mc.demo.AOBAndroidModel</ClassName>
+                                                    <TestObject>
+                                                        <Path>
+                                                            <Object>
+                                                                <Type>Mobile.Device</Type>
+                                                                <Name><![CDATA[Device]]></Name>
+                                                                <IconKey>Device</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Application</Type>
+                                                                <Name><![CDATA[Advantage]]></Name>
+                                                                <IconKey>Application</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.UiObject</Type>
+                                                                <Name><![CDATA[aobMenu]]></Name>
+                                                                <IconKey>UiObject</IconKey>
+                                                            </Object>
+                                                        </Path>
+                                                    </TestObject>
+                                                </ApplicationModel>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Mobile.Device.Device</Name>
+                            <Description/>
+                            <StartTime>2016-03-03 11:16:21.226</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>3</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Application.Advantage</Name>
+                                <Description/>
+                                <StartTime>2016-03-03 11:16:21.224</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>3</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[Advantage]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Application</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Mobile.Label.moneyTransfer</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-03 11:16:21.224</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>3</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[Device]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Application</Type>
+                                                        <Name><![CDATA[Advantage]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Label</Type>
+                                                        <Name><![CDATA[moneyTransfer]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Label</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>moneyTransfer.tap</Name>
+                                        <Description/>
+                                        <StartTime>2016-03-03 11:16:19.360</StartTime>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Duration>2</Duration>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Mobile.Device</Type>
+                                                            <Name><![CDATA[Device]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Application</Type>
+                                                            <Name><![CDATA[Advantage]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Label</Type>
+                                                            <Name><![CDATA[moneyTransfer]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>tap</Operation>
+                                                    <OperationData/>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[Text]]></Name>
+                                                            <Value><![CDATA["MONEY TRANSFER"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ClassName]]></Name>
+                                                            <Value><![CDATA["Label"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Container]]></Name>
+                                                            <Value><![CDATA["Table[0][1][0]"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[0]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ResourceId]]></Name>
+                                                            <Value><![CDATA["menuItemTextView"]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                                                <IconKey>Label</IconKey>
+                                                <CustomUIElements>
+                                                    <DescriptionLabel>Data</DescriptionLabel>
+                                                </CustomUIElements>
+                                                <ApplicationModel>
+                                                    <LogicalName>AOBAndroidModel</LogicalName>
+                                                    <ClassName>aob.mc.demo.AOBAndroidModel</ClassName>
+                                                    <TestObject>
+                                                        <Path>
+                                                            <Object>
+                                                                <Type>Mobile.Device</Type>
+                                                                <Name><![CDATA[Device]]></Name>
+                                                                <IconKey>Device</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Application</Type>
+                                                                <Name><![CDATA[Advantage]]></Name>
+                                                                <IconKey>Application</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Label</Type>
+                                                                <Name><![CDATA[moneyTransfer]]></Name>
+                                                                <IconKey>Label</IconKey>
+                                                            </Object>
+                                                        </Path>
+                                                    </TestObject>
+                                                </ApplicationModel>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Mobile.Device.Device</Name>
+                            <Description/>
+                            <StartTime>2016-03-03 11:16:23.396</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>3</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Application.Advantage</Name>
+                                <Description/>
+                                <StartTime>2016-03-03 11:16:23.396</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>3</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[Advantage]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Application</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Mobile.EditField.transferSum</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-03 11:16:23.396</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>3</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[Device]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Application</Type>
+                                                        <Name><![CDATA[Advantage]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.EditField</Type>
+                                                        <Name><![CDATA[transferSum]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>EditField</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>transferSum.setText</Name>
+                                        <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;100&quot;</td></tr></table>]]></Description>
+                                        <StartTime>2016-03-03 11:16:21.226</StartTime>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Duration>3</Duration>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Mobile.Device</Type>
+                                                            <Name><![CDATA[Device]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Application</Type>
+                                                            <Name><![CDATA[Advantage]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.EditField</Type>
+                                                            <Name><![CDATA[transferSum]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>setText</Operation>
+                                                    <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;100&quot;</td></tr></table>]]></OperationData>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[ClassName]]></Name>
+                                                            <Value><![CDATA["Input"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[0]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ResourceId]]></Name>
+                                                            <Value><![CDATA["transferSumEditText"]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                                                <IconKey>EditField</IconKey>
+                                                <CustomUIElements>
+                                                    <DescriptionLabel>Data</DescriptionLabel>
+                                                </CustomUIElements>
+                                                <ApplicationModel>
+                                                    <LogicalName>AOBAndroidModel</LogicalName>
+                                                    <ClassName>aob.mc.demo.AOBAndroidModel</ClassName>
+                                                    <TestObject>
+                                                        <Path>
+                                                            <Object>
+                                                                <Type>Mobile.Device</Type>
+                                                                <Name><![CDATA[Device]]></Name>
+                                                                <IconKey>Device</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Application</Type>
+                                                                <Name><![CDATA[Advantage]]></Name>
+                                                                <IconKey>Application</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.EditField</Type>
+                                                                <Name><![CDATA[transferSum]]></Name>
+                                                                <IconKey>EditField</IconKey>
+                                                            </Object>
+                                                        </Path>
+                                                    </TestObject>
+                                                </ApplicationModel>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Mobile.Device.Device</Name>
+                            <Description/>
+                            <StartTime>2016-03-03 11:16:25.618</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>5</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Application.Advantage</Name>
+                                <Description/>
+                                <StartTime>2016-03-03 11:16:25.618</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>5</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[Advantage]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Application</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Mobile.Button.transferButton</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-03 11:16:25.616</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>5</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[Device]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Application</Type>
+                                                        <Name><![CDATA[Advantage]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Button</Type>
+                                                        <Name><![CDATA[transferButton]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Button</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>transferButton.tap</Name>
+                                        <Description/>
+                                        <StartTime>2016-03-03 11:16:23.397</StartTime>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Duration>3</Duration>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Mobile.Device</Type>
+                                                            <Name><![CDATA[Device]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Application</Type>
+                                                            <Name><![CDATA[Advantage]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Button</Type>
+                                                            <Name><![CDATA[transferButton]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>tap</Operation>
+                                                    <OperationData/>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[Text]]></Name>
+                                                            <Value><![CDATA["TRANSFER"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ClassName]]></Name>
+                                                            <Value><![CDATA["Button"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[0]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ResourceId]]></Name>
+                                                            <Value><![CDATA["transferButton"]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                                                <IconKey>Button</IconKey>
+                                                <CustomUIElements>
+                                                    <DescriptionLabel>Data</DescriptionLabel>
+                                                </CustomUIElements>
+                                                <ApplicationModel>
+                                                    <LogicalName>AOBAndroidModel</LogicalName>
+                                                    <ClassName>aob.mc.demo.AOBAndroidModel</ClassName>
+                                                    <TestObject>
+                                                        <Path>
+                                                            <Object>
+                                                                <Type>Mobile.Device</Type>
+                                                                <Name><![CDATA[Device]]></Name>
+                                                                <IconKey>Device</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Application</Type>
+                                                                <Name><![CDATA[Advantage]]></Name>
+                                                                <IconKey>Application</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Button</Type>
+                                                                <Name><![CDATA[transferButton]]></Name>
+                                                                <IconKey>Button</IconKey>
+                                                            </Object>
+                                                        </Path>
+                                                    </TestObject>
+                                                </ApplicationModel>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Mobile.Device.Device</Name>
+                            <Description/>
+                            <StartTime>2016-03-03 11:16:30.265</StartTime>
+                            <Result>Failed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Application.Advantage</Name>
+                                <Description/>
+                                <StartTime>2016-03-03 11:16:30.265</StartTime>
+                                <Result>Failed</Result>
+                                <Links/>
+                                <Duration>1</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[Advantage]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Application</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Mobile.Label.successfullTransfer</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-03 11:16:30.265</StartTime>
+                                    <Result>Failed</Result>
+                                    <ErrorText>&lt;b&gt;Operation 'Mobile.Label.successfullTransfer' failed:&lt;/b&gt;&lt;BR/&gt;&lt;pre&gt;com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object &amp;quot;Mobile Label&amp;quot;.
+Verify that this object&amp;apos;s properties match an object currently displayed in your application.
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory$1.create(ReplayExceptionFactory.java:33)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:131)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:20)
+	at com.hp.lft.sdk.internal.TestObjectExecuterBehaviorBase$ReplayErrorHandler.onError(TestObjectExecuterBehaviorBase.java:65)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.handleError(CommunicationClientImpl.java:219)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.send(CommunicationClientImpl.java:95)
+	at com.hp.lft.sdk.internal.TestObjectExecuterBehavior.executeMethod(TestObjectExecuter.java:42)
+	at com.hp.lft.sdk.internal.TestObjectBase.executeMethod(TestObjectBase.java:123)
+	at com.hp.lft.sdk.internal.TestObjectBase.getRealObjectProperty(TestObjectBase.java:128)
+	at com.hp.lft.sdk.internal.mobile.MobileLabel.access$000(MobileLabel.java:9)
+	at com.hp.lft.sdk.internal.mobile.MobileLabel$1.invoke(MobileLabel.java:21)
+	at com.hp.lft.sdk.internal.mobile.MobileLabel$1.invoke(MobileLabel.java:18)
+	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:115)
+	at com.hp.lft.sdk.internal.mobile.MobileLabel.getText(MobileLabel.java:24)
+	at aob.mc.demo.AOBAndroidModel$LabelNodeBase.getText(AOBAndroidModel.java:1174)
+	at aob.mc.demo.LeanFtTest.transfer(LeanFtTest.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+&lt;/pre&gt;</ErrorText>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[Device]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Application</Type>
+                                                        <Name><![CDATA[Advantage]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Label</Type>
+                                                        <Name><![CDATA[successfullTransfer]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Label</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>successfullTransfer.getText</Name>
+                                        <Description/>
+                                        <StartTime>2016-03-03 11:16:25.619</StartTime>
+                                        <Result>Failed</Result>
+                                        <ErrorText>&lt;b&gt;Operation 'successfullTransfer.getText' failed:&lt;/b&gt;&lt;BR/&gt;&lt;pre&gt;com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object &amp;quot;Mobile Label&amp;quot;.
+Verify that this object&amp;apos;s properties match an object currently displayed in your application.
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory$1.create(ReplayExceptionFactory.java:33)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:131)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:20)
+	at com.hp.lft.sdk.internal.TestObjectExecuterBehaviorBase$ReplayErrorHandler.onError(TestObjectExecuterBehaviorBase.java:65)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.handleError(CommunicationClientImpl.java:219)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.send(CommunicationClientImpl.java:95)
+	at com.hp.lft.sdk.internal.TestObjectExecuterBehavior.executeMethod(TestObjectExecuter.java:42)
+	at com.hp.lft.sdk.internal.TestObjectBase.executeMethod(TestObjectBase.java:123)
+	at com.hp.lft.sdk.internal.TestObjectBase.getRealObjectProperty(TestObjectBase.java:128)
+	at com.hp.lft.sdk.internal.mobile.MobileLabel.access$000(MobileLabel.java:9)
+	at com.hp.lft.sdk.internal.mobile.MobileLabel$1.invoke(MobileLabel.java:21)
+	at com.hp.lft.sdk.internal.mobile.MobileLabel$1.invoke(MobileLabel.java:18)
+	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:115)
+	at com.hp.lft.sdk.internal.mobile.MobileLabel.getText(MobileLabel.java:24)
+	at aob.mc.demo.AOBAndroidModel$LabelNodeBase.getText(AOBAndroidModel.java:1174)
+	at aob.mc.demo.LeanFtTest.transfer(LeanFtTest.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+&lt;/pre&gt;</ErrorText>
+                                        <Links/>
+                                        <Duration>5</Duration>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Mobile.Device</Type>
+                                                            <Name><![CDATA[Device]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Application</Type>
+                                                            <Name><![CDATA[Advantage]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Mobile.Label</Type>
+                                                            <Name><![CDATA[successfullTransfer]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>getText</Operation>
+                                                    <OperationData/>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[Text]]></Name>
+                                                            <Value><![CDATA["Money transferred correctly"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ClassName]]></Name>
+                                                            <Value><![CDATA["Label"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[1]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ResourceId]]></Name>
+                                                            <Value><![CDATA["message"]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                                                <IconKey>Label</IconKey>
+                                                <CustomUIElements>
+                                                    <DescriptionLabel>Data</DescriptionLabel>
+                                                </CustomUIElements>
+                                                <ApplicationModel>
+                                                    <LogicalName>AOBAndroidModel</LogicalName>
+                                                    <ClassName>aob.mc.demo.AOBAndroidModel</ClassName>
+                                                    <TestObject>
+                                                        <Path>
+                                                            <Object>
+                                                                <Type>Mobile.Device</Type>
+                                                                <Name><![CDATA[Device]]></Name>
+                                                                <IconKey>Device</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Application</Type>
+                                                                <Name><![CDATA[Advantage]]></Name>
+                                                                <IconKey>Application</IconKey>
+                                                            </Object>
+                                                            <Object>
+                                                                <Type>Mobile.Label</Type>
+                                                                <Name><![CDATA[successfullTransfer]]></Name>
+                                                                <IconKey>Label</IconKey>
+                                                            </Object>
+                                                        </Path>
+                                                    </TestObject>
+                                                </ApplicationModel>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                        </ReportNode>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Device.[Device]</Name>
+                                <Description/>
+                                <StartTime>2016-03-03 11:16:30.271</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>0</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[[Device]]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Device</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name>[Device].unlock</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-03 11:16:30.267</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[[Device]]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>unlock</Operation>
+                                                <OperationData/>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[Name]]></Name>
+                                                        <Value><![CDATA[SM-G900I]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[Manufacturer]]></Name>
+                                                        <Value><![CDATA[samsung]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[Model]]></Name>
+                                                        <Value><![CDATA[SM-G900I]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[OS Version]]></Name>
+                                                        <Value><![CDATA[4.4.2]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[Id]]></Name>
+                                                        <Value><![CDATA[656e674a]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[OS Type]]></Name>
+                                                        <Value><![CDATA[ANDROID]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Device</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Mobile.Device</Type>
+                                                            <Name><![CDATA[[Device]]]></Name>
+                                                            <IconKey>Device</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
