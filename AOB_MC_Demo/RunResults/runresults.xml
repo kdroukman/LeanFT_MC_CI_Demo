@@ -1,7 +1,7 @@
 <Results>
     <GeneralInfo>
         <Name/>
-        <RunStartTime>2016-03-03 11:15:51.960</RunStartTime>
+        <RunStartTime>2016-03-10 16:50:37.663</RunStartTime>
         <Timezone>AUS Eastern Standard Time</Timezone>
         <OrchestrationToolName>JUnit</OrchestrationToolName>
         <OrchestrationToolVersion/>
@@ -12,10 +12,10 @@
         <Data>
             <Name>Run Results</Name>
             <Description><![CDATA[ ]]></Description>
-            <StartTime>2016-03-03 11:15:51.960</StartTime>
-            <Result>Failed</Result>
+            <StartTime>2016-03-10 16:50:37.663</StartTime>
+            <Result>Passed</Result>
             <Links/>
-            <Duration>39</Duration>
+            <Duration>33</Duration>
             <Extension>
                 <Any>
                     <IconKey>Run</IconKey>
@@ -39,10 +39,10 @@
             <Data>
                 <Name>aob.mc.demo</Name>
                 <Description><![CDATA[Version: N/A]]></Description>
-                <StartTime>2016-03-03 11:15:52.111</StartTime>
-                <Result>Failed</Result>
+                <StartTime>2016-03-10 16:50:37.770</StartTime>
+                <Result>Passed</Result>
                 <Links/>
-                <Duration>39</Duration>
+                <Duration>33</Duration>
                 <Extension>
                     <Any>
                         <IconKey>Package</IconKey>
@@ -54,10 +54,10 @@
                 <Data>
                     <Name>aob.mc.demo.LeanFtTest</Name>
                     <Description/>
-                    <StartTime>2016-03-03 11:15:52.111</StartTime>
-                    <Result>Failed</Result>
+                    <StartTime>2016-03-10 16:50:37.770</StartTime>
+                    <Result>Passed</Result>
                     <Links/>
-                    <Duration>39</Duration>
+                    <Duration>33</Duration>
                     <Extension>
                         <Any>
                             <IconKey>Class</IconKey>
@@ -69,10 +69,10 @@
                     <Data>
                         <Name>login</Name>
                         <Description/>
-                        <StartTime>2016-03-03 11:15:52.517</StartTime>
+                        <StartTime>2016-03-10 16:50:37.781</StartTime>
                         <Result>Passed</Result>
                         <Links/>
-                        <Duration>22</Duration>
+                        <Duration>18</Duration>
                         <Extension>
                             <Any>
                                 <IconKey>Test</IconKey>
@@ -84,7 +84,7 @@
                         <Data>
                             <Name>Device.Lock</Name>
                             <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;656e674a&quot;</td></tr></table>]]></Description>
-                            <StartTime>2016-03-03 11:15:52.641</StartTime>
+                            <StartTime>2016-03-10 16:50:37.791</StartTime>
                             <Result>Passed</Result>
                             <Links/>
                             <Duration>0</Duration>
@@ -112,10 +112,10 @@
                         <Data>
                             <Name>Mobile.Device.Device</Name>
                             <Description/>
-                            <StartTime>2016-03-03 11:16:03.445</StartTime>
+                            <StartTime>2016-03-10 16:50:43.653</StartTime>
                             <Result>Passed</Result>
                             <Links/>
-                            <Duration>4</Duration>
+                            <Duration>5</Duration>
                             <Extension>
                                 <Any>
                                     <TestObject>
@@ -142,10 +142,10 @@
                             <Data>
                                 <Name>Mobile.Application.Advantage</Name>
                                 <Description/>
-                                <StartTime>2016-03-03 11:16:03.445</StartTime>
+                                <StartTime>2016-03-10 16:50:43.653</StartTime>
                                 <Result>Passed</Result>
                                 <Links/>
-                                <Duration>4</Duration>
+                                <Duration>5</Duration>
                                 <Extension>
                                     <Any>
                                         <TestObject>
@@ -176,10 +176,10 @@
                                 <Data>
                                     <Name>Advantage.restart</Name>
                                     <Description/>
-                                    <StartTime>2016-03-03 11:15:58.417</StartTime>
+                                    <StartTime>2016-03-10 16:50:39.183</StartTime>
                                     <Result>Passed</Result>
                                     <Links/>
-                                    <Duration>6</Duration>
+                                    <Duration>5</Duration>
                                     <Extension>
                                         <Any>
                                             <TestObject>
@@ -240,7 +240,7 @@
                         <Data>
                             <Name>Mobile.Device.Device</Name>
                             <Description/>
-                            <StartTime>2016-03-03 11:16:07.309</StartTime>
+                            <StartTime>2016-03-10 16:50:47.988</StartTime>
                             <Result>Passed</Result>
                             <Links/>
                             <Duration>5</Duration>
@@ -270,7 +270,7 @@
                             <Data>
                                 <Name>Mobile.Application.Advantage</Name>
                                 <Description/>
-                                <StartTime>2016-03-03 11:16:07.308</StartTime>
+                                <StartTime>2016-03-10 16:50:47.988</StartTime>
                                 <Result>Passed</Result>
                                 <Links/>
                                 <Duration>5</Duration>
@@ -304,7 +304,7 @@
                                 <Data>
                                     <Name>Mobile.EditField.username</Name>
                                     <Description/>
-                                    <StartTime>2016-03-03 11:16:07.308</StartTime>
+                                    <StartTime>2016-03-10 16:50:47.988</StartTime>
                                     <Result>Passed</Result>
                                     <Links/>
                                     <Duration>5</Duration>
@@ -342,10 +342,10 @@
                                     <Data>
                                         <Name>username.setText</Name>
                                         <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;kate&quot;</td></tr></table>]]></Description>
-                                        <StartTime>2016-03-03 11:16:03.448</StartTime>
+                                        <StartTime>2016-03-10 16:50:43.655</StartTime>
                                         <Result>Passed</Result>
                                         <Links/>
-                                        <Duration>4</Duration>
+                                        <Duration>5</Duration>
                                         <Extension>
                                             <Any>
                                                 <TestObject>
@@ -371,12 +371,12 @@
                                                             <Value><![CDATA["Input"]]></Value>
                                                         </Property>
                                                         <Property>
-                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
-                                                            <Value><![CDATA[0]]></Value>
-                                                        </Property>
-                                                        <Property>
                                                             <Name><![CDATA[ResourceId]]></Name>
                                                             <Value><![CDATA["loginUserNameEditText"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[0]]></Value>
                                                         </Property>
                                                     </Properties>
                                                 </TestObject>
@@ -420,7 +420,7 @@
                         <Data>
                             <Name>Mobile.Device.Device</Name>
                             <Description/>
-                            <StartTime>2016-03-03 11:16:11.815</StartTime>
+                            <StartTime>2016-03-10 16:50:52.389</StartTime>
                             <Result>Passed</Result>
                             <Links/>
                             <Duration>3</Duration>
@@ -450,7 +450,7 @@
                             <Data>
                                 <Name>Mobile.Application.Advantage</Name>
                                 <Description/>
-                                <StartTime>2016-03-03 11:16:11.815</StartTime>
+                                <StartTime>2016-03-10 16:50:52.389</StartTime>
                                 <Result>Passed</Result>
                                 <Links/>
                                 <Duration>3</Duration>
@@ -484,7 +484,7 @@
                                 <Data>
                                     <Name>Mobile.EditField.password</Name>
                                     <Description/>
-                                    <StartTime>2016-03-03 11:16:11.815</StartTime>
+                                    <StartTime>2016-03-10 16:50:52.388</StartTime>
                                     <Result>Passed</Result>
                                     <Links/>
                                     <Duration>3</Duration>
@@ -522,7 +522,7 @@
                                     <Data>
                                         <Name>password.setSecure</Name>
                                         <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;56d6a93a1212c387254ac03345d55123582afd144635&quot;</td></tr></table>]]></Description>
-                                        <StartTime>2016-03-03 11:16:07.310</StartTime>
+                                        <StartTime>2016-03-10 16:50:47.990</StartTime>
                                         <Result>Passed</Result>
                                         <Links/>
                                         <Duration>5</Duration>
@@ -551,12 +551,12 @@
                                                             <Value><![CDATA["Input"]]></Value>
                                                         </Property>
                                                         <Property>
-                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
-                                                            <Value><![CDATA[1]]></Value>
-                                                        </Property>
-                                                        <Property>
                                                             <Name><![CDATA[ResourceId]]></Name>
                                                             <Value><![CDATA["loginPasswordEditText"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[1]]></Value>
                                                         </Property>
                                                     </Properties>
                                                 </TestObject>
@@ -600,7 +600,7 @@
                         <Data>
                             <Name>Mobile.Device.Device</Name>
                             <Description/>
-                            <StartTime>2016-03-03 11:16:14.003</StartTime>
+                            <StartTime>2016-03-10 16:50:55.317</StartTime>
                             <Result>Passed</Result>
                             <Links/>
                             <Duration>1</Duration>
@@ -630,7 +630,7 @@
                             <Data>
                                 <Name>Mobile.Application.Advantage</Name>
                                 <Description/>
-                                <StartTime>2016-03-03 11:16:14.003</StartTime>
+                                <StartTime>2016-03-10 16:50:55.317</StartTime>
                                 <Result>Passed</Result>
                                 <Links/>
                                 <Duration>1</Duration>
@@ -664,7 +664,7 @@
                                 <Data>
                                     <Name>Mobile.Button.login</Name>
                                     <Description/>
-                                    <StartTime>2016-03-03 11:16:14.003</StartTime>
+                                    <StartTime>2016-03-10 16:50:55.317</StartTime>
                                     <Result>Passed</Result>
                                     <Links/>
                                     <Duration>1</Duration>
@@ -702,7 +702,7 @@
                                     <Data>
                                         <Name>login.tap</Name>
                                         <Description/>
-                                        <StartTime>2016-03-03 11:16:11.822</StartTime>
+                                        <StartTime>2016-03-10 16:50:52.395</StartTime>
                                         <Result>Passed</Result>
                                         <Links/>
                                         <Duration>3</Duration>
@@ -735,12 +735,12 @@
                                                             <Value><![CDATA["Button"]]></Value>
                                                         </Property>
                                                         <Property>
-                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
-                                                            <Value><![CDATA[0]]></Value>
-                                                        </Property>
-                                                        <Property>
                                                             <Name><![CDATA[ResourceId]]></Name>
                                                             <Value><![CDATA["loginButton"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[0]]></Value>
                                                         </Property>
                                                     </Properties>
                                                 </TestObject>
@@ -783,7 +783,7 @@
                             <Data>
                                 <Name>Mobile.Device.[Device]</Name>
                                 <Description/>
-                                <StartTime>2016-03-03 11:16:14.127</StartTime>
+                                <StartTime>2016-03-10 16:50:55.352</StartTime>
                                 <Result>Passed</Result>
                                 <Links/>
                                 <Duration>0</Duration>
@@ -813,7 +813,7 @@
                                 <Data>
                                     <Name>[Device].unlock</Name>
                                     <Description/>
-                                    <StartTime>2016-03-03 11:16:14.007</StartTime>
+                                    <StartTime>2016-03-10 16:50:55.319</StartTime>
                                     <Result>Passed</Result>
                                     <Links/>
                                     <Duration>1</Duration>
@@ -883,10 +883,10 @@
                     <Data>
                         <Name>transfer</Name>
                         <Description/>
-                        <StartTime>2016-03-03 11:16:14.130</StartTime>
-                        <Result>Failed</Result>
+                        <StartTime>2016-03-10 16:50:55.462</StartTime>
+                        <Result>Passed</Result>
                         <Links/>
-                        <Duration>17</Duration>
+                        <Duration>15</Duration>
                         <Extension>
                             <Any>
                                 <IconKey>Test</IconKey>
@@ -898,7 +898,7 @@
                         <Data>
                             <Name>Device.Lock</Name>
                             <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;656e674a&quot;</td></tr></table>]]></Description>
-                            <StartTime>2016-03-03 11:16:14.131</StartTime>
+                            <StartTime>2016-03-10 16:50:55.462</StartTime>
                             <Result>Passed</Result>
                             <Links/>
                             <Duration>0</Duration>
@@ -926,10 +926,10 @@
                         <Data>
                             <Name>Mobile.Device.Device</Name>
                             <Description/>
-                            <StartTime>2016-03-03 11:16:19.360</StartTime>
+                            <StartTime>2016-03-10 16:50:58.395</StartTime>
                             <Result>Passed</Result>
                             <Links/>
-                            <Duration>2</Duration>
+                            <Duration>3</Duration>
                             <Extension>
                                 <Any>
                                     <TestObject>
@@ -956,10 +956,10 @@
                             <Data>
                                 <Name>Mobile.Application.Advantage</Name>
                                 <Description/>
-                                <StartTime>2016-03-03 11:16:19.359</StartTime>
+                                <StartTime>2016-03-10 16:50:58.395</StartTime>
                                 <Result>Passed</Result>
                                 <Links/>
-                                <Duration>2</Duration>
+                                <Duration>3</Duration>
                                 <Extension>
                                     <Any>
                                         <TestObject>
@@ -990,10 +990,10 @@
                                 <Data>
                                     <Name>Mobile.UiObject.aobMenu</Name>
                                     <Description/>
-                                    <StartTime>2016-03-03 11:16:19.356</StartTime>
+                                    <StartTime>2016-03-10 16:50:58.392</StartTime>
                                     <Result>Passed</Result>
                                     <Links/>
-                                    <Duration>2</Duration>
+                                    <Duration>3</Duration>
                                     <Extension>
                                         <Any>
                                             <TestObject>
@@ -1028,10 +1028,10 @@
                                     <Data>
                                         <Name>aobMenu.tap</Name>
                                         <Description/>
-                                        <StartTime>2016-03-03 11:16:16.799</StartTime>
+                                        <StartTime>2016-03-10 16:50:56.412</StartTime>
                                         <Result>Passed</Result>
                                         <Links/>
-                                        <Duration>3</Duration>
+                                        <Duration>2</Duration>
                                         <Extension>
                                             <Any>
                                                 <TestObject>
@@ -1057,12 +1057,12 @@
                                                             <Value><![CDATA["ImageView"]]></Value>
                                                         </Property>
                                                         <Property>
-                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
-                                                            <Value><![CDATA[12]]></Value>
-                                                        </Property>
-                                                        <Property>
                                                             <Name><![CDATA[ResourceId]]></Name>
                                                             <Value><![CDATA["up"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[12]]></Value>
                                                         </Property>
                                                     </Properties>
                                                 </TestObject>
@@ -1106,7 +1106,7 @@
                         <Data>
                             <Name>Mobile.Device.Device</Name>
                             <Description/>
-                            <StartTime>2016-03-03 11:16:21.226</StartTime>
+                            <StartTime>2016-03-10 16:51:00.697</StartTime>
                             <Result>Passed</Result>
                             <Links/>
                             <Duration>3</Duration>
@@ -1136,7 +1136,7 @@
                             <Data>
                                 <Name>Mobile.Application.Advantage</Name>
                                 <Description/>
-                                <StartTime>2016-03-03 11:16:21.224</StartTime>
+                                <StartTime>2016-03-10 16:51:00.697</StartTime>
                                 <Result>Passed</Result>
                                 <Links/>
                                 <Duration>3</Duration>
@@ -1170,7 +1170,7 @@
                                 <Data>
                                     <Name>Mobile.Label.moneyTransfer</Name>
                                     <Description/>
-                                    <StartTime>2016-03-03 11:16:21.224</StartTime>
+                                    <StartTime>2016-03-10 16:51:00.696</StartTime>
                                     <Result>Passed</Result>
                                     <Links/>
                                     <Duration>3</Duration>
@@ -1208,10 +1208,10 @@
                                     <Data>
                                         <Name>moneyTransfer.tap</Name>
                                         <Description/>
-                                        <StartTime>2016-03-03 11:16:19.360</StartTime>
+                                        <StartTime>2016-03-10 16:50:58.396</StartTime>
                                         <Result>Passed</Result>
                                         <Links/>
-                                        <Duration>2</Duration>
+                                        <Duration>3</Duration>
                                         <Extension>
                                             <Any>
                                                 <TestObject>
@@ -1245,12 +1245,12 @@
                                                             <Value><![CDATA["Table[0][1][0]"]]></Value>
                                                         </Property>
                                                         <Property>
-                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
-                                                            <Value><![CDATA[0]]></Value>
-                                                        </Property>
-                                                        <Property>
                                                             <Name><![CDATA[ResourceId]]></Name>
                                                             <Value><![CDATA["menuItemTextView"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[0]]></Value>
                                                         </Property>
                                                     </Properties>
                                                 </TestObject>
@@ -1294,7 +1294,7 @@
                         <Data>
                             <Name>Mobile.Device.Device</Name>
                             <Description/>
-                            <StartTime>2016-03-03 11:16:23.396</StartTime>
+                            <StartTime>2016-03-10 16:51:03.059</StartTime>
                             <Result>Passed</Result>
                             <Links/>
                             <Duration>3</Duration>
@@ -1324,7 +1324,7 @@
                             <Data>
                                 <Name>Mobile.Application.Advantage</Name>
                                 <Description/>
-                                <StartTime>2016-03-03 11:16:23.396</StartTime>
+                                <StartTime>2016-03-10 16:51:03.059</StartTime>
                                 <Result>Passed</Result>
                                 <Links/>
                                 <Duration>3</Duration>
@@ -1358,7 +1358,7 @@
                                 <Data>
                                     <Name>Mobile.EditField.transferSum</Name>
                                     <Description/>
-                                    <StartTime>2016-03-03 11:16:23.396</StartTime>
+                                    <StartTime>2016-03-10 16:51:03.059</StartTime>
                                     <Result>Passed</Result>
                                     <Links/>
                                     <Duration>3</Duration>
@@ -1396,7 +1396,7 @@
                                     <Data>
                                         <Name>transferSum.setText</Name>
                                         <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;100&quot;</td></tr></table>]]></Description>
-                                        <StartTime>2016-03-03 11:16:21.226</StartTime>
+                                        <StartTime>2016-03-10 16:51:00.697</StartTime>
                                         <Result>Passed</Result>
                                         <Links/>
                                         <Duration>3</Duration>
@@ -1425,12 +1425,12 @@
                                                             <Value><![CDATA["Input"]]></Value>
                                                         </Property>
                                                         <Property>
-                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
-                                                            <Value><![CDATA[0]]></Value>
-                                                        </Property>
-                                                        <Property>
                                                             <Name><![CDATA[ResourceId]]></Name>
                                                             <Value><![CDATA["transferSumEditText"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[0]]></Value>
                                                         </Property>
                                                     </Properties>
                                                 </TestObject>
@@ -1474,10 +1474,10 @@
                         <Data>
                             <Name>Mobile.Device.Device</Name>
                             <Description/>
-                            <StartTime>2016-03-03 11:16:25.618</StartTime>
+                            <StartTime>2016-03-10 16:51:05.659</StartTime>
                             <Result>Passed</Result>
                             <Links/>
-                            <Duration>5</Duration>
+                            <Duration>3</Duration>
                             <Extension>
                                 <Any>
                                     <TestObject>
@@ -1504,10 +1504,10 @@
                             <Data>
                                 <Name>Mobile.Application.Advantage</Name>
                                 <Description/>
-                                <StartTime>2016-03-03 11:16:25.618</StartTime>
+                                <StartTime>2016-03-10 16:51:05.658</StartTime>
                                 <Result>Passed</Result>
                                 <Links/>
-                                <Duration>5</Duration>
+                                <Duration>3</Duration>
                                 <Extension>
                                     <Any>
                                         <TestObject>
@@ -1538,10 +1538,10 @@
                                 <Data>
                                     <Name>Mobile.Button.transferButton</Name>
                                     <Description/>
-                                    <StartTime>2016-03-03 11:16:25.616</StartTime>
+                                    <StartTime>2016-03-10 16:51:05.658</StartTime>
                                     <Result>Passed</Result>
                                     <Links/>
-                                    <Duration>5</Duration>
+                                    <Duration>3</Duration>
                                     <Extension>
                                         <Any>
                                             <TestObject>
@@ -1576,7 +1576,7 @@
                                     <Data>
                                         <Name>transferButton.tap</Name>
                                         <Description/>
-                                        <StartTime>2016-03-03 11:16:23.397</StartTime>
+                                        <StartTime>2016-03-10 16:51:03.059</StartTime>
                                         <Result>Passed</Result>
                                         <Links/>
                                         <Duration>3</Duration>
@@ -1609,12 +1609,12 @@
                                                             <Value><![CDATA["Button"]]></Value>
                                                         </Property>
                                                         <Property>
-                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
-                                                            <Value><![CDATA[0]]></Value>
-                                                        </Property>
-                                                        <Property>
                                                             <Name><![CDATA[ResourceId]]></Name>
                                                             <Value><![CDATA["transferButton"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[0]]></Value>
                                                         </Property>
                                                     </Properties>
                                                 </TestObject>
@@ -1656,10 +1656,115 @@
                     </ReportNode>
                     <ReportNode type="Context">
                         <Data>
+                            <Name>Mobile.Device.[Device]</Name>
+                            <Description/>
+                            <StartTime>2016-03-10 16:51:08.635</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>2</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[[Device]]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Mobile.Application.Advantage</Name>
+                                <Description/>
+                                <StartTime>2016-03-10 16:51:08.635</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>2</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[[Device]]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[Advantage]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Application</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Mobile.Label.successfullTransfer</Name>
+                                    <Description/>
+                                    <StartTime>2016-03-10 16:51:08.635</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>2</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Mobile.Device</Type>
+                                                        <Name><![CDATA[[Device]]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Application</Type>
+                                                        <Name><![CDATA[Advantage]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Mobile.Label</Type>
+                                                        <Name><![CDATA[successfullTransfer]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Label</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
                             <Name>Mobile.Device.Device</Name>
                             <Description/>
-                            <StartTime>2016-03-03 11:16:30.265</StartTime>
-                            <Result>Failed</Result>
+                            <StartTime>2016-03-10 16:51:10.342</StartTime>
+                            <Result>Passed</Result>
                             <Links/>
                             <Duration>1</Duration>
                             <Extension>
@@ -1688,8 +1793,8 @@
                             <Data>
                                 <Name>Mobile.Application.Advantage</Name>
                                 <Description/>
-                                <StartTime>2016-03-03 11:16:30.265</StartTime>
-                                <Result>Failed</Result>
+                                <StartTime>2016-03-10 16:51:10.342</StartTime>
+                                <Result>Passed</Result>
                                 <Links/>
                                 <Duration>1</Duration>
                                 <Extension>
@@ -1720,60 +1825,10 @@
                             </Data>
                             <ReportNode type="Context">
                                 <Data>
-                                    <Name>Mobile.Label.successfullTransfer</Name>
+                                    <Name>Mobile.Button.OK</Name>
                                     <Description/>
-                                    <StartTime>2016-03-03 11:16:30.265</StartTime>
-                                    <Result>Failed</Result>
-                                    <ErrorText>&lt;b&gt;Operation 'Mobile.Label.successfullTransfer' failed:&lt;/b&gt;&lt;BR/&gt;&lt;pre&gt;com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object &amp;quot;Mobile Label&amp;quot;.
-Verify that this object&amp;apos;s properties match an object currently displayed in your application.
-	at com.hp.lft.sdk.internal.ReplayExceptionFactory$1.create(ReplayExceptionFactory.java:33)
-	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:131)
-	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:20)
-	at com.hp.lft.sdk.internal.TestObjectExecuterBehaviorBase$ReplayErrorHandler.onError(TestObjectExecuterBehaviorBase.java:65)
-	at com.hp.lft.sdk.internal.CommunicationClientImpl.handleError(CommunicationClientImpl.java:219)
-	at com.hp.lft.sdk.internal.CommunicationClientImpl.send(CommunicationClientImpl.java:95)
-	at com.hp.lft.sdk.internal.TestObjectExecuterBehavior.executeMethod(TestObjectExecuter.java:42)
-	at com.hp.lft.sdk.internal.TestObjectBase.executeMethod(TestObjectBase.java:123)
-	at com.hp.lft.sdk.internal.TestObjectBase.getRealObjectProperty(TestObjectBase.java:128)
-	at com.hp.lft.sdk.internal.mobile.MobileLabel.access$000(MobileLabel.java:9)
-	at com.hp.lft.sdk.internal.mobile.MobileLabel$1.invoke(MobileLabel.java:21)
-	at com.hp.lft.sdk.internal.mobile.MobileLabel$1.invoke(MobileLabel.java:18)
-	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:115)
-	at com.hp.lft.sdk.internal.mobile.MobileLabel.getText(MobileLabel.java:24)
-	at aob.mc.demo.AOBAndroidModel$LabelNodeBase.getText(AOBAndroidModel.java:1174)
-	at aob.mc.demo.LeanFtTest.transfer(LeanFtTest.java:69)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
-&lt;/pre&gt;</ErrorText>
+                                    <StartTime>2016-03-10 16:51:10.342</StartTime>
+                                    <Result>Passed</Result>
                                     <Links/>
                                     <Duration>1</Duration>
                                     <Extension>
@@ -1789,8 +1844,8 @@ Verify that this object&amp;apos;s properties match an object currently displaye
                                                         <Name><![CDATA[Advantage]]></Name>
                                                     </Object>
                                                     <Object>
-                                                        <Type>Mobile.Label</Type>
-                                                        <Name><![CDATA[successfullTransfer]]></Name>
+                                                        <Type>Mobile.Button</Type>
+                                                        <Name><![CDATA[OK]]></Name>
                                                     </Object>
                                                 </Path>
                                                 <Operation/>
@@ -1798,7 +1853,7 @@ Verify that this object&amp;apos;s properties match an object currently displaye
                                                 <Properties/>
                                             </TestObject>
                                             <IsHtmlErrorText>true</IsHtmlErrorText>
-                                            <IconKey>Label</IconKey>
+                                            <IconKey>Button</IconKey>
                                             <CustomUIElements>
                                                 <DescriptionLabel>Data</DescriptionLabel>
                                             </CustomUIElements>
@@ -1808,62 +1863,12 @@ Verify that this object&amp;apos;s properties match an object currently displaye
                                 </Data>
                                 <ReportNode type="Step">
                                     <Data>
-                                        <Name>successfullTransfer.getText</Name>
+                                        <Name>OK.tap</Name>
                                         <Description/>
-                                        <StartTime>2016-03-03 11:16:25.619</StartTime>
-                                        <Result>Failed</Result>
-                                        <ErrorText>&lt;b&gt;Operation 'successfullTransfer.getText' failed:&lt;/b&gt;&lt;BR/&gt;&lt;pre&gt;com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object &amp;quot;Mobile Label&amp;quot;.
-Verify that this object&amp;apos;s properties match an object currently displayed in your application.
-	at com.hp.lft.sdk.internal.ReplayExceptionFactory$1.create(ReplayExceptionFactory.java:33)
-	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:131)
-	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:20)
-	at com.hp.lft.sdk.internal.TestObjectExecuterBehaviorBase$ReplayErrorHandler.onError(TestObjectExecuterBehaviorBase.java:65)
-	at com.hp.lft.sdk.internal.CommunicationClientImpl.handleError(CommunicationClientImpl.java:219)
-	at com.hp.lft.sdk.internal.CommunicationClientImpl.send(CommunicationClientImpl.java:95)
-	at com.hp.lft.sdk.internal.TestObjectExecuterBehavior.executeMethod(TestObjectExecuter.java:42)
-	at com.hp.lft.sdk.internal.TestObjectBase.executeMethod(TestObjectBase.java:123)
-	at com.hp.lft.sdk.internal.TestObjectBase.getRealObjectProperty(TestObjectBase.java:128)
-	at com.hp.lft.sdk.internal.mobile.MobileLabel.access$000(MobileLabel.java:9)
-	at com.hp.lft.sdk.internal.mobile.MobileLabel$1.invoke(MobileLabel.java:21)
-	at com.hp.lft.sdk.internal.mobile.MobileLabel$1.invoke(MobileLabel.java:18)
-	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:115)
-	at com.hp.lft.sdk.internal.mobile.MobileLabel.getText(MobileLabel.java:24)
-	at aob.mc.demo.AOBAndroidModel$LabelNodeBase.getText(AOBAndroidModel.java:1174)
-	at aob.mc.demo.LeanFtTest.transfer(LeanFtTest.java:69)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
-&lt;/pre&gt;</ErrorText>
+                                        <StartTime>2016-03-10 16:51:08.635</StartTime>
+                                        <Result>Passed</Result>
                                         <Links/>
-                                        <Duration>5</Duration>
+                                        <Duration>2</Duration>
                                         <Extension>
                                             <Any>
                                                 <TestObject>
@@ -1877,33 +1882,33 @@ Verify that this object&amp;apos;s properties match an object currently displaye
                                                             <Name><![CDATA[Advantage]]></Name>
                                                         </Object>
                                                         <Object>
-                                                            <Type>Mobile.Label</Type>
-                                                            <Name><![CDATA[successfullTransfer]]></Name>
+                                                            <Type>Mobile.Button</Type>
+                                                            <Name><![CDATA[OK]]></Name>
                                                         </Object>
                                                     </Path>
-                                                    <Operation>getText</Operation>
+                                                    <Operation>tap</Operation>
                                                     <OperationData/>
                                                     <Properties>
                                                         <Property>
                                                             <Name><![CDATA[Text]]></Name>
-                                                            <Value><![CDATA["Money transferred correctly"]]></Value>
+                                                            <Value><![CDATA["OK"]]></Value>
                                                         </Property>
                                                         <Property>
                                                             <Name><![CDATA[ClassName]]></Name>
-                                                            <Value><![CDATA["Label"]]></Value>
-                                                        </Property>
-                                                        <Property>
-                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
-                                                            <Value><![CDATA[1]]></Value>
+                                                            <Value><![CDATA["Button"]]></Value>
                                                         </Property>
                                                         <Property>
                                                             <Name><![CDATA[ResourceId]]></Name>
-                                                            <Value><![CDATA["message"]]></Value>
+                                                            <Value><![CDATA["button1"]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[MobileCenterIndex]]></Name>
+                                                            <Value><![CDATA[0]]></Value>
                                                         </Property>
                                                     </Properties>
                                                 </TestObject>
                                                 <IsHtmlErrorText>true</IsHtmlErrorText>
-                                                <IconKey>Label</IconKey>
+                                                <IconKey>Button</IconKey>
                                                 <CustomUIElements>
                                                     <DescriptionLabel>Data</DescriptionLabel>
                                                 </CustomUIElements>
@@ -1923,9 +1928,9 @@ Verify that this object&amp;apos;s properties match an object currently displaye
                                                                 <IconKey>Application</IconKey>
                                                             </Object>
                                                             <Object>
-                                                                <Type>Mobile.Label</Type>
-                                                                <Name><![CDATA[successfullTransfer]]></Name>
-                                                                <IconKey>Label</IconKey>
+                                                                <Type>Mobile.Button</Type>
+                                                                <Name><![CDATA[OK]]></Name>
+                                                                <IconKey>Button</IconKey>
                                                             </Object>
                                                         </Path>
                                                     </TestObject>
@@ -1941,7 +1946,7 @@ Verify that this object&amp;apos;s properties match an object currently displaye
                             <Data>
                                 <Name>Mobile.Device.[Device]</Name>
                                 <Description/>
-                                <StartTime>2016-03-03 11:16:30.271</StartTime>
+                                <StartTime>2016-03-10 16:51:10.346</StartTime>
                                 <Result>Passed</Result>
                                 <Links/>
                                 <Duration>0</Duration>
@@ -1971,7 +1976,7 @@ Verify that this object&amp;apos;s properties match an object currently displaye
                                 <Data>
                                     <Name>[Device].unlock</Name>
                                     <Description/>
-                                    <StartTime>2016-03-03 11:16:30.267</StartTime>
+                                    <StartTime>2016-03-10 16:51:10.342</StartTime>
                                     <Result>Passed</Result>
                                     <Links/>
                                     <Duration>1</Duration>

@@ -374,9 +374,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public <TChild extends TestObject> TChild[] findChildren(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
+		public java.awt.Point verifyImageExists(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			return getConcrete().findChildren(arg0, arg1);
+			return getConcrete().verifyImageExists(arg0, arg1);
 		}
 
 		@Override 
@@ -386,9 +386,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public java.awt.Point verifyImageExists(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		public <TChild extends TestObject> TChild[] findChildren(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
 		{
-			return getConcrete().verifyImageExists(arg0, arg1);
+			return getConcrete().findChildren(arg0, arg1);
 		}
 
 		@Override 
@@ -416,15 +416,15 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public java.awt.Rectangle[] getTextLocations(java.lang.String arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().getTextLocations(arg0);
-		}
-
-		@Override 
 		public java.awt.Rectangle[] getTextLocations(java.lang.String arg0, java.awt.Rectangle arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().getTextLocations(arg0, arg1);
+		}
+
+		@Override 
+		public java.awt.Rectangle[] getTextLocations(java.lang.String arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getTextLocations(arg0);
 		}
 
 		@Override 
@@ -440,13 +440,7 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2, byte arg3) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().verifyImageMatch(arg0, arg1, arg2, arg3);
-		}
-
-		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().verifyImageMatch(arg0, arg1);
 		}
@@ -458,21 +452,27 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().verifyImageMatch(arg0, arg1);
-		}
-
-		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().verifyImageMatch(arg0);
 		}
 
 		@Override 
 		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().verifyImageMatch(arg0, arg1, arg2);
+		}
+
+		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2, byte arg3) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0, arg1, arg2, arg3);
+		}
+
+		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0);
 		}
 
 		@Override 
@@ -494,9 +494,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public boolean exists() throws com.hp.lft.sdk.GeneralLeanFtException 
+		public void setDisplayName(java.lang.String arg0)  
 		{
-			return getConcrete().exists();
+			getConcrete().setDisplayName(arg0);
 		}
 
 		@Override 
@@ -506,9 +506,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public void setDisplayName(java.lang.String arg0)  
+		public boolean exists() throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			getConcrete().setDisplayName(arg0);
+			return getConcrete().exists();
 		}
 
 		@Override 
@@ -553,15 +553,15 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public void highlight() throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			getConcrete().highlight();
-		}
-
-		@Override 
 		public java.lang.String getText() throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().getText();
+		}
+
+		@Override 
+		public void highlight() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().highlight();
 		}
 
 		@Override 
@@ -577,9 +577,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public <TChild extends TestObject> TChild[] findChildren(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
+		public java.awt.Point verifyImageExists(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			return getConcrete().findChildren(arg0, arg1);
+			return getConcrete().verifyImageExists(arg0, arg1);
 		}
 
 		@Override 
@@ -589,9 +589,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public java.awt.Point verifyImageExists(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		public <TChild extends TestObject> TChild[] findChildren(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
 		{
-			return getConcrete().verifyImageExists(arg0, arg1);
+			return getConcrete().findChildren(arg0, arg1);
 		}
 
 		@Override 
@@ -691,18 +691,6 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().verifyImageMatch(arg0, arg1, arg2);
-		}
-
-		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().verifyImageMatch(arg0);
-		}
-
-		@Override 
 		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().verifyImageMatch(arg0, arg1);
@@ -721,9 +709,21 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0, arg1, arg2);
+		}
+
+		@Override 
 		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2, byte arg3) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().verifyImageMatch(arg0, arg1, arg2, arg3);
+		}
+
+		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0);
 		}
 
 		@Override 
@@ -757,27 +757,15 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public <TChild extends TestObject> int highlightMatches(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
-		{
-			return getConcrete().highlightMatches(arg0, arg1);
-		}
-
-		@Override 
 		public boolean isFocusable() throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().isFocusable();
 		}
 
 		@Override 
-		public boolean exists() throws com.hp.lft.sdk.GeneralLeanFtException 
+		public <TChild extends TestObject> int highlightMatches(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
 		{
-			return getConcrete().exists();
-		}
-
-		@Override 
-		public boolean exists(java.lang.Integer arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().exists(arg0);
+			return getConcrete().highlightMatches(arg0, arg1);
 		}
 
 		@Override 
@@ -787,15 +775,27 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public void tap() throws com.hp.lft.sdk.GeneralLeanFtException 
+		public boolean exists(java.lang.Integer arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			getConcrete().tap();
+			return getConcrete().exists(arg0);
+		}
+
+		@Override 
+		public boolean exists() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().exists();
 		}
 
 		@Override 
 		public void tap(com.hp.lft.sdk.mobile.TapArgs arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			getConcrete().tap(arg0);
+		}
+
+		@Override 
+		public void tap() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().tap();
 		}
 
 		@Override 
@@ -828,15 +828,15 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public void swipe(com.hp.lft.sdk.SwipeDirection arg0, com.hp.lft.sdk.mobile.SwipeArgs arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			getConcrete().swipe(arg0, arg1);
-		}
-
-		@Override 
 		public void swipe(com.hp.lft.sdk.SwipeDirection arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			getConcrete().swipe(arg0);
+		}
+
+		@Override 
+		public void swipe(com.hp.lft.sdk.SwipeDirection arg0, com.hp.lft.sdk.mobile.SwipeArgs arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().swipe(arg0, arg1);
 		}
 
 		@Override 
@@ -894,15 +894,15 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public java.lang.String getVisibleText(java.awt.Rectangle arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().getVisibleText(arg0);
-		}
-
-		@Override 
 		public java.lang.String getVisibleText() throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().getVisibleText();
+		}
+
+		@Override 
+		public java.lang.String getVisibleText(java.awt.Rectangle arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getVisibleText(arg0);
 		}
 
 		@Override 
@@ -960,18 +960,6 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().verifyImageMatch(arg0, arg1, arg2);
-		}
-
-		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().verifyImageMatch(arg0);
-		}
-
-		@Override 
 		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().verifyImageMatch(arg0, arg1);
@@ -990,21 +978,33 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0, arg1, arg2);
+		}
+
+		@Override 
 		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2, byte arg3) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().verifyImageMatch(arg0, arg1, arg2, arg3);
 		}
 
 		@Override 
-		public void longPress(com.hp.lft.sdk.mobile.LongPressArgs arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			getConcrete().longPress(arg0);
+			return getConcrete().verifyImageMatch(arg0);
 		}
 
 		@Override 
 		public void longPress() throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			getConcrete().longPress();
+		}
+
+		@Override 
+		public void longPress(com.hp.lft.sdk.mobile.LongPressArgs arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().longPress(arg0);
 		}
 
 		@Override 
@@ -1091,15 +1091,15 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public void swipe(com.hp.lft.sdk.SwipeDirection arg0, com.hp.lft.sdk.mobile.SwipeArgs arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			getConcrete().swipe(arg0, arg1);
-		}
-
-		@Override 
 		public void swipe(com.hp.lft.sdk.SwipeDirection arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			getConcrete().swipe(arg0);
+		}
+
+		@Override 
+		public void swipe(com.hp.lft.sdk.SwipeDirection arg0, com.hp.lft.sdk.mobile.SwipeArgs arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().swipe(arg0, arg1);
 		}
 
 		@Override 
@@ -1121,9 +1121,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public <TChild extends TestObject> TChild[] findChildren(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
+		public java.awt.Point verifyImageExists(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			return getConcrete().findChildren(arg0, arg1);
+			return getConcrete().verifyImageExists(arg0, arg1);
 		}
 
 		@Override 
@@ -1133,9 +1133,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public java.awt.Point verifyImageExists(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		public <TChild extends TestObject> TChild[] findChildren(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
 		{
-			return getConcrete().verifyImageExists(arg0, arg1);
+			return getConcrete().findChildren(arg0, arg1);
 		}
 
 		@Override 
@@ -1151,15 +1151,15 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public java.lang.String getVisibleText(java.awt.Rectangle arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().getVisibleText(arg0);
-		}
-
-		@Override 
 		public java.lang.String getVisibleText() throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().getVisibleText();
+		}
+
+		@Override 
+		public java.lang.String getVisibleText(java.awt.Rectangle arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getVisibleText(arg0);
 		}
 
 		@Override 
@@ -1169,9 +1169,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public void pinch(double arg0, com.hp.lft.sdk.mobile.PinchArgs arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		public java.lang.String getText() throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			getConcrete().pinch(arg0, arg1);
+			return getConcrete().getText();
 		}
 
 		@Override 
@@ -1181,9 +1181,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public java.lang.String getText() throws com.hp.lft.sdk.GeneralLeanFtException 
+		public void pinch(double arg0, com.hp.lft.sdk.mobile.PinchArgs arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			return getConcrete().getText();
+			getConcrete().pinch(arg0, arg1);
 		}
 
 		@Override 
@@ -1199,15 +1199,15 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public java.awt.Rectangle[] getTextLocations(java.lang.String arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().getTextLocations(arg0);
-		}
-
-		@Override 
 		public java.awt.Rectangle[] getTextLocations(java.lang.String arg0, java.awt.Rectangle arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().getTextLocations(arg0, arg1);
+		}
+
+		@Override 
+		public java.awt.Rectangle[] getTextLocations(java.lang.String arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getTextLocations(arg0);
 		}
 
 		@Override 
@@ -1235,18 +1235,6 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().verifyImageMatch(arg0, arg1, arg2);
-		}
-
-		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().verifyImageMatch(arg0);
-		}
-
-		@Override 
 		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().verifyImageMatch(arg0, arg1);
@@ -1265,21 +1253,33 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0, arg1, arg2);
+		}
+
+		@Override 
 		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2, byte arg3) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().verifyImageMatch(arg0, arg1, arg2, arg3);
 		}
 
 		@Override 
-		public void longPress(com.hp.lft.sdk.mobile.LongPressArgs arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			getConcrete().longPress(arg0);
+			return getConcrete().verifyImageMatch(arg0);
 		}
 
 		@Override 
 		public void longPress() throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			getConcrete().longPress();
+		}
+
+		@Override 
+		public void longPress(com.hp.lft.sdk.mobile.LongPressArgs arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().longPress(arg0);
 		}
 
 		@Override 
@@ -1307,9 +1307,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public boolean exists() throws com.hp.lft.sdk.GeneralLeanFtException 
+		public void setDisplayName(java.lang.String arg0)  
 		{
-			return getConcrete().exists();
+			getConcrete().setDisplayName(arg0);
 		}
 
 		@Override 
@@ -1319,9 +1319,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public void setDisplayName(java.lang.String arg0)  
+		public boolean exists() throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			getConcrete().setDisplayName(arg0);
+			return getConcrete().exists();
 		}
 
 		@Override 
@@ -1366,15 +1366,15 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public void swipe(com.hp.lft.sdk.SwipeDirection arg0, com.hp.lft.sdk.mobile.SwipeArgs arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			getConcrete().swipe(arg0, arg1);
-		}
-
-		@Override 
 		public void swipe(com.hp.lft.sdk.SwipeDirection arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			getConcrete().swipe(arg0);
+		}
+
+		@Override 
+		public void swipe(com.hp.lft.sdk.SwipeDirection arg0, com.hp.lft.sdk.mobile.SwipeArgs arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().swipe(arg0, arg1);
 		}
 
 		@Override 
@@ -1408,9 +1408,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public <TChild extends TestObject> TChild[] findChildren(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
+		public java.awt.Point verifyImageExists(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			return getConcrete().findChildren(arg0, arg1);
+			return getConcrete().verifyImageExists(arg0, arg1);
 		}
 
 		@Override 
@@ -1420,9 +1420,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public java.awt.Point verifyImageExists(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		public <TChild extends TestObject> TChild[] findChildren(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
 		{
-			return getConcrete().verifyImageExists(arg0, arg1);
+			return getConcrete().findChildren(arg0, arg1);
 		}
 
 		@Override 
@@ -1468,15 +1468,15 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public java.awt.Rectangle[] getTextLocations(java.lang.String arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().getTextLocations(arg0);
-		}
-
-		@Override 
 		public java.awt.Rectangle[] getTextLocations(java.lang.String arg0, java.awt.Rectangle arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().getTextLocations(arg0, arg1);
+		}
+
+		@Override 
+		public java.awt.Rectangle[] getTextLocations(java.lang.String arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getTextLocations(arg0);
 		}
 
 		@Override 
@@ -1504,18 +1504,6 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().verifyImageMatch(arg0, arg1, arg2);
-		}
-
-		@Override 
-		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().verifyImageMatch(arg0);
-		}
-
-		@Override 
 		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().verifyImageMatch(arg0, arg1);
@@ -1534,9 +1522,21 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0, arg1, arg2);
+		}
+
+		@Override 
 		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2, byte arg3) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			return getConcrete().verifyImageMatch(arg0, arg1, arg2, arg3);
+		}
+
+		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0);
 		}
 
 		@Override 
@@ -1558,9 +1558,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public <TChild extends TestObject> int highlightMatches(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
+		public java.awt.Point getLocation() throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			return getConcrete().highlightMatches(arg0, arg1);
+			return getConcrete().getLocation();
 		}
 
 		@Override 
@@ -1570,21 +1570,9 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public java.awt.Point getLocation() throws com.hp.lft.sdk.GeneralLeanFtException 
+		public <TChild extends TestObject> int highlightMatches(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
 		{
-			return getConcrete().getLocation();
-		}
-
-		@Override 
-		public boolean exists() throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().exists();
-		}
-
-		@Override 
-		public boolean exists(java.lang.Integer arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
-		{
-			return getConcrete().exists(arg0);
+			return getConcrete().highlightMatches(arg0, arg1);
 		}
 
 		@Override 
@@ -1594,15 +1582,27 @@ public class AOBAndroidModel extends AppModelBase {		private AdvantageApplicatio
 		}
 
 		@Override 
-		public void tap() throws com.hp.lft.sdk.GeneralLeanFtException 
+		public boolean exists(java.lang.Integer arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
-			getConcrete().tap();
+			return getConcrete().exists(arg0);
+		}
+
+		@Override 
+		public boolean exists() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().exists();
 		}
 
 		@Override 
 		public void tap(com.hp.lft.sdk.mobile.TapArgs arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			getConcrete().tap(arg0);
+		}
+
+		@Override 
+		public void tap() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().tap();
 		}
 
 		@Override 
